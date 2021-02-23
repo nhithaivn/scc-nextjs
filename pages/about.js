@@ -1,5 +1,5 @@
 import { withTranslation } from "../i18n";
-import HeroBanner from "../components/Header/HeroBanner";
+import HeroBanner from "../components/HeroBanner";
 
 const About = ({ t }) => {
   return (

@@ -1,8 +1,11 @@
 {
   "welcomeMessage": "Hi, welcome!",
   "homeMenu": "Home",
-  "aboutMenu": "About ",
+  "aboutMenu": "Info",
   "pricingMenu": "Pricing",
   "classesMenu": "Classes",
-  "ourGuymMenu": "Our gym"
+  "ourGuymMenu": "Our gym",
+  "routeSettingMenu": "Route Setting",
+  "firstClimbersMenu": "First Visit",
+  "blogMenu": "Blog"
 }

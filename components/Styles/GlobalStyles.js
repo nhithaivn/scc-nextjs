@@ -30,6 +30,12 @@ const GlobalStyles = () => (
         button {
           cursor: pointer;
         }
+        img {
+          border: 0;
+          display: block;
+          height: auto;
+          max-width: 100%;
+        }
         .container {
           display: flex;
           width: 100%;
@@ -40,12 +46,18 @@ const GlobalStyles = () => (
           margin-left: auto;
           position: relative;
         }
+        section {
+          padding: 3rem 0;
+        }
         @media (min-width: 768px){
           .container{
             max-width: 140rem;
-          }  
-}
-        `}/>
+          }
+          section {
+          padding: 6rem 0;
+        }
+        }
+      `}/>
     </>
 )
 

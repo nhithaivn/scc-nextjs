@@ -1,7 +1,10 @@
 {
   "homeMenu": "Trang chủ",
-  "aboutMenu": "Về SCC",
+  "aboutMenu": "Giới thiệu",
   "pricingMenu": "Bản giá",
   "classesMenu": "Lớp học",
-  "ourGuymMenu": "Our gym"
+  "ourGuymMenu": "Leo nứi",
+  "routeSettingMenu": "Lấp đường",
+  "firstClimbersMenu": "Lần đầu trải nghiệm",
+  "blogMenu": "Tin tức"
 }

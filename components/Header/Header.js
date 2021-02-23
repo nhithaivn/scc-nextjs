@@ -12,6 +12,7 @@ const Header = ({ t }) => {
     { path: "/about", text: "aboutMenu" },
     { path: "/classes", text: "classesMenu" },
     { path: "/pricing", text: "pricingMenu" },
+    { path: "/blog", text: "blogMenu" },
   ];
 
   return (
@@ -57,7 +58,6 @@ const Header = ({ t }) => {
             overflow: hidden;
             background-color: #fff;
             width: auto;
-            -webkit-transition: all 0.3s ease-out;
             transition: all 0.3s ease-out;
             z-index: 1000;
             display: flex;
@@ -67,9 +67,10 @@ const Header = ({ t }) => {
             align-items: center;
             position: absolute;
             left: 0;
-            top: 7rem;
+            top: 6rem;
             width: 100%;
             a {
+              font-size: 1.4rem;
               display: block;
               padding: 2rem 2rem;
               border-right: 0.1rem solid #f4f4f4;
@@ -85,7 +86,7 @@ const Header = ({ t }) => {
           background-color: #f4f4f4;
         }
         .site-header .logo {
-          height: 6rem;
+          height: 5rem;
           position: absolute;
           top: 0;
           bottom: 0;
@@ -107,7 +108,7 @@ const Header = ({ t }) => {
 
           ul:first-child {
             width: 100%;
-            margin-right: 0; 
+            margin-right: 0;
           }
         }
 
@@ -178,14 +179,13 @@ const Header = ({ t }) => {
         .site-header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
           top: 0;
         }
+        
         @media (min-width: 768px) {
           .site-header {
-            height: 8rem;
+            height: 9rem;
           }
           .site-header .logo {
-            a {
-              height: 8rem;
-            }
+            height: 9rem;
           }
           .site-header li {
             float: left;
@@ -196,11 +196,14 @@ const Header = ({ t }) => {
           .site-header .main-menu {
             clear: none;
             max-height: none;
-            height: 8rem;
+            height: 9rem;
             position: relative;
-            top:0;
+            top: 0;
+            a {
+              font-size: 2rem;
+            }
             ul:first-child {
-            margin-right: 10rem; 
+              margin-right: 10rem;
             }
           }
           .site-header .menu-icon {
